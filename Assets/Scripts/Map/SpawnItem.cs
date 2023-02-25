@@ -39,9 +39,9 @@ public class SpawnItem : MonoBehaviour
         if (isScene2)
         {
             for (int i = 0; i < row1SpawnPoints.Length; i++)
-                Instantiate(items[Random.Range(0, items.Length)], row1SpawnPoints[i].transform.position, Quaternion.identity);
+                Instantiate(items[Random.Range(0, items.Length)], row1SpawnPoints[i].transform.position, Quaternion.Inverse(transform.rotation));
             for (int i = 0; i < row2SpawnPoints.Length; i++)
-                Instantiate(items[Random.Range(0, items.Length)], row2SpawnPoints[i].transform.position, Quaternion.identity);
+                Instantiate(items[Random.Range(0, items.Length)], row2SpawnPoints[i].transform.position, Quaternion.Inverse(transform.rotation));
         }
         else
         {

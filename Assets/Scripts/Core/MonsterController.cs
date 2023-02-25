@@ -17,8 +17,12 @@ public class MonsterController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if (Mathf.Abs(transform.position.z - player.position.z) < .5f)
-            GameObject.FindObjectOfType<GameManager>().LoseScene();
+    {     
+        Debug.Log(player.forward);
+        agent.SetDestination(player.position);
+        if ((player.forward.z == 1 && Mathf.Abs(transform.position.z - player.position.z) < .3f) ||
+            (player.forward.x == 1 && Mathf.Abs(transform.position.x - player.position.x) < .3f) ||
+            (player.forward.y == 1 && Mathf.Abs(transform.position.y - player.position.y) < .3f))
+                GameObject.FindObjectOfType<GameManager>().LoseScene();
     }
 }
