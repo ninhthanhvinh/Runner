@@ -2312,7 +2312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 510, y: -471}
+  m_AnchoredPosition: {x: 543, y: -489}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &773340760
@@ -94529,14 +94529,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.18755275, y: 0, z: 0, w: 0.98225456}
-  m_LocalPosition: {x: 0, y: 2.8, z: -1.34}
+  m_LocalRotation: {x: 0.2174619, y: 0, z: 0, w: 0.97606885}
+  m_LocalPosition: {x: 0, y: 2.9, z: -1.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 916700468}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 21.62, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.12, y: 0, z: 0}
 --- !u!1 &968802180
 GameObject:
   m_ObjectHideFlags: 0
@@ -95454,7 +95454,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Point: '
+  m_text: ' Point: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6ac5ea4d8312a34ba6a8883a579e94c, type: 2}
   m_sharedMaterial: {fileID: 6731840309703178541, guid: a6ac5ea4d8312a34ba6a8883a579e94c,
@@ -95490,7 +95490,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -96303,7 +96303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.6716, y: 367.5}
+  m_AnchoredPosition: {x: 77, y: 367.5}
   m_SizeDelta: {x: 539.95, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492498062
@@ -96362,7 +96362,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
