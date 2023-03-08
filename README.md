@@ -1,2 +1,6 @@
 # Runner
- a runner game for my test ^^
+ Runner is an small minigame for you in your free time.
+ You should nove your character to the goal before the NPC catchs up with. 
+ There is a sub camera that show the position of the NPC.
+ You can pick 3 types of items and 1 type of obstacle.
+ Items can give you gold, which is counted as points.
